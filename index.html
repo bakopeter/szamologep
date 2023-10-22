@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szamologep</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="szam01"></label>
+        <input type="text" id="szam01">
+        <span id="operator-span">
+            <input type="button" class="operator" name="operator" value="+">
+            <input type="button" class="operator" name="operator" value="-">
+            <input type="button" class="operator" name="operator" value="*">
+            <input type="button" class="operator" name="operator" value="/">
+            <input type="button" class="operator" name="operator" value="^">
+            <input type="button" class="operator" name="operator" value="√">
+        </span>
+        <label for="szam02"></label>
+        <input type="text" id="szam02">
+        <input type="button" value="=" onclick="Szamol();">
+        <span id="ki"></span>
+    </form>
+    <div></div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
