@@ -1,0 +1,2 @@
+# szamologep
+Számológép
