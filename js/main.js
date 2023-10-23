@@ -11,7 +11,7 @@ operatorSpan.addEventListener("click", function (event) {
 
 function Beker() {
 
-    let regex = /^([-]?([0]|([0-9][,][0-9]+)|([1-9]+([,][0-9])?[0-9]*)))$/;
+    let regex = /^([-]?([0]|([0-9][,.][0-9]+)|([1-9]+([,.][0-9])?[0-9]*)))$/;
 
     szam1 = document.getElementById("szam01").value;
     szam2 = document.getElementById("szam02").value;
