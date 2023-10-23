@@ -50,7 +50,7 @@ function Szamol() {
             eredmeny = Math.pow(szam1, szam2);
             break;
         case "√":
-            eredmeny = Math.pow(szam2, 1 / szam1);
+            eredmeny = Math.pow(szam2, 1/szam1);
             break;
         default: 0;
     }
